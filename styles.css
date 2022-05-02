@@ -1,0 +1,72 @@
+body {
+    background-color: #b56576;
+    align-items: center;
+    border: solid 30px #e79799;
+    color: white;
+    font-family: 'BIZ UDGothic', sans-serif;
+}
+h1{
+    font-size: 50px;
+   
+}
+.whole-game {
+    display: inline;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.game-board {
+       display: grid;
+       grid-gap: 35px;
+       grid-template-columns: 150px 150px 150px;
+       grid-template-rows: 150px 150px 150px;
+       padding: 29px;
+       background-color: #355070;
+       border: solid 20px #6d597a;
+    
+}
+.turn{
+font-size: 30px;
+}
+
+.squares {
+    text-align: center;
+    font-size: 120px;
+    height: 130px;
+    width: 70%;
+    border: solid;
+    border-radius: 40px;
+    border-color: rgb(81, 80, 153);
+    border-width: 12px;
+    background-color: white;
+}
+
+.squarechange1 {
+    background-color: #eaac8b;
+}
+.squarechange2 {
+background-color: #9e4c4f;
+}
+
+.hide {
+    opacity: 0%;
+}
+.results {
+font-size: 40px;
+
+}
+
+.color {
+    background-color: #6d597a;
+    font-size: 30px;
+    border: solid 8px rgb(124, 175, 233);
+}
+.buttons{
+    align-items: center;
+   justify-content: center;
+   flex-direction: column;
+}
+.cheater{
+    font-size: 40px;
+}
